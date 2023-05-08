@@ -76,7 +76,7 @@ function createUser() {
 
   // emit eventa
   emit('createUser', prim.value, description.value, src.value)
-  // clean inputs
+  // clear inputs
   resetinput()
 }
 function resetinput() {
